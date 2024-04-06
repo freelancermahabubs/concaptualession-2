@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      .topheader {
+        display: flex;
+        justify-content: space-between;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header h1 {
+        margin: 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .notes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .second {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .footer1 {
+        text-align: center;
+      }
+      .footer2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .footer3 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="topheader">
+          <div>
+            <h1 style="color: skyblue;">A.S Computer</h1>
+          </div>
+          <div>
+            <h1 style="color: skyblue;">Invoice</h1>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <p>All Kinds of Electric Products are sold in HOuse Wiring.</p>
+          <p>Office: Mymensingh Road, Parla Bazar, Netrakona.</p>
+        </div>
+      </div>
+      <div class="second">
+        <div>
+          <img
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbd.linkedin.com%2Fcompany%2Fcircle-electric-electronics&psig=AOvVaw0_T6XnOIH3rhxhYFemuM2d&ust=1712466404465000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDUsdHorIUDFQAAAAAdAAAAABAE"
+            alt="Circle" />
+        </div>
+     <div style="display: flex; justify-content: end; align-items: center; gap: 8px;">
+      <div style="margin-top: -5%;">
+        <p>Date:</p>
+        <p>Invoice #:</p>
+        <p>Customer ID:</p>
+        <p>Purchase Order:</p>
+      </div>
+
+      <div>
+        <table style="width: 20vh">
+          <tr>
+            <td>06.04.2024</td>
+          </tr>
+          <tr>
+            <td>INV</td>
+          </tr>
+          <tr>
+            <td>2400</td>
+          </tr>
+
+          <tr>
+            <td>11182306</td>
+          </tr>
+        </table>
+      </div>
+     </div>
+      </div>
+
+      <div style="margin-top: -4%">
+        <p>Bill To:</p>
+        <hr style="margin-top: -2%" />
+      </div>
+      <div style="display: flex; justify-content: space-between">
+        <div style="margin-top: -1%">
+          <p>Buyer Name:</p>
+          <p>Buyer Address:</p>
+          <p>Buyer Phone:</p>
+        </div>
+        <div style="margin-top: -1%">
+          <p>Buyer Name:</p>
+          <p>Buyer Address:</p>
+          <p>Buyer Phone:</p>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>SL</th>
+            <th>Description</th>
+            <th>Qty</th>
+            <th>Unit Price</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>F.O</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Replace</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+          </tr>
+          <!-- Add more rows if needed -->
+        </tbody>
+      </table>
+
+      <div class="notes">
+        <div style="width: 60%">
+          <table>
+            <tr>
+              <td>Special Notes and Instructions:</td>
+            </tr>
+
+            <tr>
+              <td style="color: orange">
+                .Warranty will void if there any physical damage, burn cane or
+                Warranty sticker removed. Sold goods are not refundable.
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <p>Total:</p>
+          <p>Vat + (7.5%):</p>
+          <p>Vat + (3%):</p>
+          <p>Grand Total:</p>
+        </div>
+
+        <div>
+          <table style="width: 20vh">
+            <tr>
+              <td>06.04.2024</td>
+            </tr>
+            <tr>
+              <td>INV</td>
+            </tr>
+            <tr>
+              <td>INV</td>
+            </tr>
+            <tr>
+              <td>2400</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="footer1">
+        <p>
+          Circle Electric House wiring Products distributed through "AS.
+          Computer"
+        </p>
+        <p>Make all checks payable to CIRCLE</p>
+        <p style="font-weight: bold">Thank you for your business!</p>
+      </div>
+      <div>
+        <div class="footer2">
+          <p>Signature Of Customer</p>
+          <p>A.S Computer</p>
+        </div>
+        <div class="footer3">
+          <p>Please contact Alamin Imran on 01714710727</p>
+          <p>Email:ascomputerbd9@gmail.com</p>
+        </div>
+      </div>
+      <div>
+        <h5>Powered By SoftFixup</h5>
+        <div style="font-size: small; margin-top: -2%">
+          <p>Email:fixupsoft@gmail.com</p>
+          <p style="margin-top: -1%">Phone:+8801736-584989</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
